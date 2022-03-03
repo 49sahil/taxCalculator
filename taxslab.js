@@ -1,6 +1,6 @@
 let amount= 6000000;
 
-function tax(amount){
+function taxc(amount){
     let tax=0;
     if(250000<amount<500000){
         tax+= (amount-250000)*0.05;
@@ -20,6 +20,6 @@ function tax(amount){
     if(1500000<amount){
         tax+= (amount-1500000)*0.30;
     }
-    console.log (tax);
+    console.log(tax);
 }
-tax(amount);
+taxc(amount);
