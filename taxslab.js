@@ -22,3 +22,4 @@ function tax(amount){
     }
     console.log (tax);
 }
+tax(amount);
