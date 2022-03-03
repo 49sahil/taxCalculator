@@ -20,5 +20,5 @@ function tax(amount){
     if(1500000<amount){
         tax+= (amount-1500000)*0.30;
     }
-    return tax;
+    console.log (tax);
 }
